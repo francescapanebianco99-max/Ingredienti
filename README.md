@@ -85,53 +85,13 @@ button:hover {
 }
 </style>
 
-.container {
-    max-width: 500px;
-    margin: auto;
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
 
 h1 {
     <div class="subtitle">Scopri ingredienti e composizione</div>
     text-align: center;
 }
 
-label {
-    margin-top: 15px;
-    display: block;
-    font-weight: bold;
-}
 
-select, button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-}
-
-button {
-    background: #333;
-    color: white;
-    margin-top: 20px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #555;
-}
-
-.output {
-    margin-top: 20px;
-    white-space: pre-line;
-    background: #f4f4f4;
-    padding: 15px;
-    border-radius: 8px;
-}
-</style>
 </head>
 
 <body>
