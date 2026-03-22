@@ -84,10 +84,7 @@ button:hover {
 </style>
 
 
-//h1 {
     <div class="subtitle">Scopri ingredienti e composizione</div>
-    //text-align: center;
-}
 
 
 </head>
