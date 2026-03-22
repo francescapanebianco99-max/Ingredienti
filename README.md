@@ -86,7 +86,7 @@ button:hover {
 <div class="subtitle">Scopri ingredienti e composizione</div>
 
 <div class="container">
-<h1>Componi il tuo lievitato</h1>
+//<h1>Componi il tuo lievitato</h1>
 
 <label>Impasto</label>
 <select id="impasto"></select>
@@ -110,12 +110,12 @@ button:hover {
 // DATABASE
 
 const impasti = [
-"Dolce tradizionale: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
-"Integrale: Farina integrale, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
-"Al caffè: Farina, lievito naturale, zucchero, uova, burro, latte, panna, caffè, amido, miele, pasta di caffè, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape, lupini, arachidi, mandorle, nocciole, pistacchi",
-"Al cacao: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, cioccolato fondente, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
-"Gianduia: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, crema di nocciola, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
-"Salato: Farina, lievito naturale, zucchero, uova, olio extra vergine di oliva, strutto, malto, sale, origano. Può contenere tracce di soia, senape e lupini"
+"Impasto Dolce tradizionale: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
+"Impasto Integrale: Farina integrale, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
+"impasto al Caffè: Farina, lievito naturale, zucchero, uova, burro, latte, panna, caffè, amido, miele, pasta di caffè, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape, lupini, arachidi, mandorle, nocciole, pistacchi",
+//"Impasto al cacao: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, cioccolato fondente, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
+//"Impasto Gianduia: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, crema di nocciola, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
+"Impasto Salato: Farina, lievito naturale, zucchero, uova, olio extra vergine di oliva, strutto, malto, sale, origano. Può contenere tracce di soia, senape e lupini"
 ];
 
 const sospensioni = [
@@ -133,7 +133,7 @@ const sospensioni = [
 "Gianduia",
 "Marzapane: mandorle, albume, zucchero",
 "Marzapane al pistacchio: mandorle, pasta di pistacchio, albume, zucchero",
-"Marzapane al caffè: mandorle, pasta di caffè, albume, zucchero",
+//"Marzapane al caffè: mandorle, pasta di caffè, albume, zucchero",
 "Marzapane al lampone: mandorle, purea di lamponi, zucchero",
 "Marzapane alla fragola: mandorle, purea di fragole, zucchero",
 "Salame",
