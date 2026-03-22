@@ -1,7 +1,7 @@
 # Grandi lievitati fatti in casa
 
 # Indicami le tue scelte per scoprire tutti gli ingredienti!!!
-<!DOCTYPE html>
+
 <html lang="it">
 <head>
 <meta charset="UTF-8">
@@ -10,11 +10,80 @@
 
 <style>
 body {
-    font-family: Arial, sans-serif;
-    background: #fafafa;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f5f2;
     margin: 0;
     padding: 20px;
 }
+
+.container {
+    max-width: 520px;
+    margin: auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-top: 18px;
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background: #fafafa;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: none;
+    background: #6b3e26;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #8a5234;
+}
+
+.output {
+    margin-top: 25px;
+    white-space: pre-line;
+    background: #fdfaf7;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    font-size: 14px;
+    line-height: 1.5;
+}
+</style>
 
 .container {
     max-width: 500px;
@@ -26,6 +95,7 @@ body {
 }
 
 h1 {
+    <div class="subtitle">Scopri ingredienti e composizione</div>
     text-align: center;
 }
 
