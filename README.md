@@ -85,8 +85,8 @@ button:hover {
 
 <div class="subtitle">Scopri ingredienti e composizione</div>
 
-//<div class="container">
-//<h1>Componi il tuo lievitato</h1>
+<div class="container">
+<h1>Componi il tuo lievitato</h1>
 
 <label>Impasto</label>
 <select id="impasto"></select>
@@ -110,10 +110,10 @@ button:hover {
 // DATABASE
 
 const impasti = [
-"Impasto Dolce tradizionale: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
+"Impasto tradizionale: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
 "Impasto Integrale: Farina integrale, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
 //"impasto al Caffè: Farina, lievito naturale, zucchero, uova, burro, latte, panna, caffè, amido, miele, pasta di caffè, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape, lupini, arachidi, mandorle, nocciole, pistacchi",
-//"Impasto al cacao: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, cioccolato fondente, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
+//"Impasto al Cacao: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, cioccolato fondente, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
 //"Impasto Gianduia: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, crema di nocciola, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
 "Impasto Salato: Farina, lievito naturale, zucchero, uova, olio extra vergine di oliva, strutto, malto, sale, origano. Può contenere tracce di soia, senape e lupini"
 ];
