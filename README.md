@@ -1,4 +1,4 @@
-# Grandi lievitati fatti in casa
+
 
 <html lang="it">
 <head>
@@ -84,12 +84,9 @@ button:hover {
 </style>
 
 
-    <div class="subtitle">Scopri ingredienti e composizione</div>
-
-
 </head>
 
-<body>
+<div class="subtitle">Scopri ingredienti e composizione</div>>
 
 <div class="container">
 <h1>Componi il tuo lievitato</h1>
