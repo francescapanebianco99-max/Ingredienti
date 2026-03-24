@@ -409,7 +409,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // GENERA OUTPUT
-
 function genera() {
     const impasto = document.getElementById("impasto").value;
 
