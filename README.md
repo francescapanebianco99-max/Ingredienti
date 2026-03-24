@@ -64,6 +64,14 @@ select {
     background: #fafafa;
     font-size: 14px;
 }
+	.intro {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
 
 button {
     width: 100%;
