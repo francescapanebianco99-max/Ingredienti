@@ -115,7 +115,7 @@ button:hover {
 }
 
 /* 📱 MOBILE */
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     body {
         padding: 10px;
     }
