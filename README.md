@@ -214,23 +214,21 @@ function genera() {
 
     let testo = "";
 
-    // 🔹 TESTO INIZIALE SPOSTATO QUI
+  
     testo += "Il prodotto NON contiene conservanti\n";
     testo += "Il lievito naturale ne preserva la qualità per non oltre due settimane dalla data di produzione\n";
     testo += "Scopri ingredienti e composizione\n\n";
 
-    // 🔹 IMPASTO
     testo += impasto + "\n\n";
 
-    // 🔹 SOSPENSIONI
     sosp.forEach(s => testo += s + "\n");
 
     if (sosp.length > 0) testo += "\n";
 
-    // 🔹 GLASSA
+    
     if (glassa !== "Nessuna") testo += glassa + "\n";
 
-    // 🔹 DECORAZIONE
+
     if (decorazione !== "Nessuna") testo += "\n" + decorazione;
 
     document.getElementById("output").innerText = testo;
