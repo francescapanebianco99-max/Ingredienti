@@ -1,111 +1,73 @@
+<!DOCTYPE html>
 <html lang="it">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Componi il tuo Panettone</title>
 
 <style>
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background: #f8f5f2;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
     margin: 0;
     padding: 20px;
 }
-.logo {
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.logo img {
-    max-width: 120px;
-filter: contrast(1.1);
-    height: auto;
-    opacity: 0.9;
-}
 
 .container {
-    max-width: 520px;
+    max-width: 500px;
     margin: auto;
-    background: #ffffff;
-    padding: 25px;
-    border-radius: 16px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 h1 {
     text-align: center;
-    margin-bottom: 10px;
-    font-size: 24px;
 }
 
-.subtitle {
-    text-align: center;
-    font-size: 14px;
-    color: #777;
-    margin-bottom: 20px;
-}
-
+h2 {text-align: :center}
 label {
-    margin-top: 18px;
+    margin-top: 15px;
     display: block;
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: bold;
 }
 
-select {
+select, button {
     width: 100%;
     padding: 10px;
-    margin-top: 6px;
-    border-radius: 10px;
-    border: 1px solid #ddd;
-    background: #fafafa;
-    font-size: 14px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
 }
 
 button {
-    width: 100%;
-    padding: 12px;
-    margin-top: 25px;
-    border-radius: 10px;
-    border: none;
-    background: #6b3e26;
+    background: #333;
     color: white;
-    font-size: 15px;
-    font-weight: bold;
+    margin-top: 20px;
     cursor: pointer;
-    transition: 0.2s;
 }
 
 button:hover {
-    background: #8a5234;
+    background: #555;
 }
 
 .output {
-    margin-top: 25px;
+    margin-top: 20px;
     white-space: pre-line;
-    background: #fdfaf7;
+    background: #f4f4f4;
     padding: 15px;
-    border-radius: 10px;
-    border: 1px solid #eee;
-    font-size: 14px;
-    line-height: 1.5;
+    border-radius: 8px;
 }
 </style>
-
-
 </head>
 
-<div class="subtitle">Il prodotto NON contiene conservanti</div>
-<div class="subtitle">Il lievito naturale ne preserva la qualità per non oltre due settimane dalla data di produzione</div>
-<div class="subtitle">Scopri ingredienti e composizione</div>
-
+<body>
 
 <div class="container">
-
-    <div class="logo">
-        <img src="logo.png" alt="logo">
-    </div>
-
-    <h1>Componi il tuo lievitato</h1>
+<h2>Componi il tuo lievitato</h2>
+	
+ 
 
 <label>Impasto</label>
 <select id="impasto"></select>
@@ -129,12 +91,12 @@ button:hover {
 // DATABASE
 
 const impasti = [
-"Impasto tradizionale: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
-"Impasto Integrale: Farina integrale, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
-//"impasto al Caffè: Farina, lievito naturale, zucchero, uova, burro, latte, panna, caffè, amido, miele, pasta di caffè, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape, lupini, arachidi, mandorle, nocciole, pistacchi",
-//"Impasto al Cacao: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, cioccolato fondente, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
-//"Impasto Gianduia: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, crema di nocciola, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
-"Impasto Salato: Farina, lievito naturale, zucchero, uova, olio extra vergine di oliva, strutto, malto, sale, origano. Può contenere tracce di soia, senape e lupini"
+"Dolce tradizionale: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
+"Integrale: Farina integrale, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
+"Al caffè: Farina, lievito naturale, zucchero, uova, burro, latte, panna, caffè, amido, miele, pasta di caffè, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape, lupini, arachidi, mandorle, nocciole, pistacchi",
+"Al cacao: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, cioccolato fondente, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
+"Gianduia: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, crema di nocciola, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
+"Salato: Farina, lievito naturale, zucchero, uova, olio extra vergine di oliva, strutto, malto, sale, origano. Può contenere tracce di soia, senape e lupini"
 ];
 
 const sospensioni = [
@@ -152,7 +114,7 @@ const sospensioni = [
 "Gianduia",
 "Marzapane: mandorle, albume, zucchero",
 "Marzapane al pistacchio: mandorle, pasta di pistacchio, albume, zucchero",
-//"Marzapane al caffè: mandorle, pasta di caffè, albume, zucchero",
+"Marzapane al caffè: mandorle, pasta di caffè, albume, zucchero",
 "Marzapane al lampone: mandorle, purea di lamponi, zucchero",
 "Marzapane alla fragola: mandorle, purea di fragole, zucchero",
 "Salame",
@@ -190,13 +152,10 @@ function popola(selectId, lista) {
     });
 }
 
-// Esegui quando il DOM è completamente caricato
-document.addEventListener('DOMContentLoaded', function() {
-    popola("impasto", impasti);
-    popola("sospensioni", sospensioni);
-    popola("glassa", glasse);
-    popola("decorazione", decorazioni);
-});
+popola("impasto", impasti);
+popola("sospensioni", sospensioni);
+popola("glassa", glasse);
+popola("decorazione", decorazioni);
 
 // GENERA OUTPUT
 function genera() {
@@ -225,4 +184,5 @@ function genera() {
 
 </script>
 
+</body>
 </html>
