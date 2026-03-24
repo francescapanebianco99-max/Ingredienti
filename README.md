@@ -33,6 +33,13 @@ body {
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+	display: none
+}
+
 h2 {
     text-align: center;
     margin-bottom: 10px;
