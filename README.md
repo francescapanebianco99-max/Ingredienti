@@ -38,8 +38,9 @@ body {
 /* TITOLI */
 h2 {
     text-align: center;
-    margin-bottom: 15px;
-    font-size: 24px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    letter-spacing: 1px;
 }
 h1 {
     text-align: center;
