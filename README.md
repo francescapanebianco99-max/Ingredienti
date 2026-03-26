@@ -196,10 +196,18 @@ const impasti = [
 const sospensioni = [
 "Canditi di arancia: scorze di arancia, zucchero",
 "Canditi di limone: scorza di limone, zucchero",
+"Canditi di albicocca: albicocche, zucchero",
+"Canditi di kumquat: mandarini cinesi, zucchero",
 "Uvetta",
 "Cioccolato fondente",
-"Gianduia",
+"Cioccolato al latte",
+"Cioccolato bianco",
+"Cioccolato al caramello",
+"Cioccolato ruby",
+//"Gianduia",
 "Marzapane: mandorle, albume, zucchero",
+"Marzapane al pistacchio: mandorle, pasta pura di pistacchio, albume, zucchero",
+"Marzapane al lampone: mandorle, purea di lamponi 100%, zucchero",
 "Salame",
 "Formaggio",
 "Olive Taggiasche",
@@ -211,7 +219,8 @@ const glasse = [
 "Glassa tradizionale: mandorle, albume, zucchero, olio di semi, amido",
 "Glassa al cioccolato: cioccolato fondente, olio di semi",
 "Glassa cioccolato e nocciole: cioccolato fondente, olio di semi, nocciole",
-"Glassa cioccolato ruby: cioccolato ruby, olio di semi"
+"Glassa cioccolato ruby: cioccolato ruby, olio di semi",
+"Glassa salata: mandorle, albume, parmigiano, olio di semi, amido"
 ];
 
 const decorazioni = [
@@ -219,7 +228,8 @@ const decorazioni = [
 "Mandorle, zucchero al velo, granella di zucchero",
 "Arancia candita",
 "Nocciole",
-"Pistacchi"
+"Pistacchi",
+"Semi di zucca e di sesamo"
 ];
 
 // POPOLA MENU
