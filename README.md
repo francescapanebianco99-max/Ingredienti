@@ -188,16 +188,16 @@ button:hover {
 
 // DATABASE
 const impasti = [
-"Impasto tradizionale: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
-"Impasto Integrale: Farina integrale, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
+"Impasto tradizionale: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi artigianale, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
+"Impasto Integrale: Farina integrale, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi artigianale, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
 "Impasto Salato: Farina, lievito naturale, zucchero, uova, olio extra vergine di oliva, strutto, malto, sale, origano. Può contenere tracce di soia, senape e lupini"
 ];
 
 const sospensioni = [
-"Canditi di arancia: scorze di arancia, zucchero",
-"Canditi di limone: scorza di limone, zucchero",
-"Canditi di albicocca: albicocche, zucchero",
-"Canditi di kumquat: mandarini cinesi, zucchero",
+"Canditi di arancia: scorze di arancia, zucchero. Prodotto artigianale",
+"Canditi di limone: scorza di limone, zucchero. Prodotto artigianale",
+"Canditi di albicocca: albicocche, zucchero. Prodotto artigianale",
+"Canditi di kumquat: mandarini cinesi, zucchero. Prodotto artigianale",
 "Uvetta",
 "Cioccolato fondente",
 "Cioccolato al latte",
@@ -205,9 +205,9 @@ const sospensioni = [
 "Cioccolato al caramello",
 "Cioccolato ruby",
 //"Gianduia",
-"Marzapane: mandorle, albume, zucchero",
-"Marzapane al pistacchio: mandorle, pasta pura di pistacchio, albume, zucchero",
-"Marzapane al lampone: mandorle, purea di lamponi 100%, zucchero",
+"Marzapane: mandorle, albume, zucchero. Prodotto artigianale",
+"Marzapane al pistacchio: mandorle, pasta pura di pistacchio, albume, zucchero. Prodotto artigianale",
+"Marzapane al lampone: mandorle, purea di lamponi 100%, zucchero. Prodotto artigianale",
 "Salame",
 "Formaggio",
 "Olive Taggiasche",
