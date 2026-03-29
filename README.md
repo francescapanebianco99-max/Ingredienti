@@ -188,7 +188,7 @@ button:hover {
 
 // DATABASE
 const impasti = [
-"Impasto tradizionale: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi artigianale, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
+"Impasto dolce: Farina, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi artigianale, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
 "Impasto Integrale: Farina integrale, lievito naturale, zucchero, uova, burro, miele, pasta di agrumi artigianale, vaniglia in bacche, malto, sale. Può contenere tracce di soia, senape e lupini",
 "Impasto Salato: Farina, lievito naturale, zucchero, uova, olio extra vergine di oliva, strutto, malto, sale, origano. Può contenere tracce di soia, senape e lupini"
 ];
@@ -283,9 +283,7 @@ function genera() {
 
     document.getElementById("output").innerHTML = testo;
 
-let testo = "";
-
-    testo += `
+let finale = `
     <div class="intro">
         Ogni colomba è diversa, <br> ognuna fatta a mano, <br> ognuna con il suo tempo. <br>
     Buona Pasqua!
