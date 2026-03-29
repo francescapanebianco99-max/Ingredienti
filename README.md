@@ -218,14 +218,15 @@ const glasse = [
 "Nessuna",
 "Glassa tradizionale: mandorle, albume, zucchero, olio di semi, amido",
 "Glassa al cioccolato: cioccolato fondente, olio di semi",
-//"Glassa cioccolato e nocciole: cioccolato fondente, olio di semi, nocciole",
+"Glassa cioccolato e nocciole: cioccolato fondente, olio di semi, nocciole",
 "Glassa cioccolato ruby: cioccolato ruby, olio di semi",
+"Glassa cioccolato fondente e caramello: cioccolato fondente, cioccolato al caramello, olio di semi",
 "Glassa salata: mandorle, albume, parmigiano, olio di semi, amido"
 ];
 
 const decorazioni = [
 "Nessuna",
-"Mandorle, zucchero al velo, granella di zucchero",
+"Mandorle: mandorle, zucchero al velo, granella di zucchero",
 "Arancia candita",
 "Nocciole",
 "Pistacchi",
