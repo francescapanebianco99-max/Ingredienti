@@ -227,7 +227,7 @@ const glasse = [
 const decorazioni = [
 "Nessuna",
 "Mandorle: mandorle, zucchero al velo, granella di zucchero",
-"Arancia candita",
+"Arancia: scorza di arancia candita. Prodotto artigianale",
 "Nocciole",
 "Pistacchi",
 "Semi di zucca e di sesamo"
