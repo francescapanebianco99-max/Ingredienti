@@ -205,11 +205,12 @@ const sospensioni = [
 "Cioccolato al caramello",
 "Cioccolato ruby",
 //"Gianduia",
+"Cremino al pistacchio: cioccolato bianco, pasta pura di pistacchio, burro di cacao, olio di semi. Prodotto artigianale",
 "Marzapane: mandorle, albume, zucchero. Prodotto artigianale",
-"Marzapane al pistacchio: mandorle, pasta pura di pistacchio, albume, zucchero. Prodotto artigianale",
+"Marzapane al pistacchio: mandorle, pasta pura di pistacchio, albume, miele, zucchero. Prodotto artigianale",
 "Marzapane al lampone: mandorle, purea di lamponi 100%, zucchero. Prodotto artigianale",
-"Salame",
-"Formaggio",
+"Salame artigianale",
+"Caciocavallo",
 "Olive Taggiasche",
 "Pomodori secchi"
 ];
@@ -217,10 +218,12 @@ const sospensioni = [
 const glasse = [
 "Nessuna",
 "Glassa tradizionale: mandorle, albume, zucchero, olio di semi, amido",
-"Glassa al cioccolato: cioccolato fondente, olio di semi",
+"Glassa al cioccolato fondente: cioccolato fondente, olio di semi",
+"Glassa al cioccolato bianco: cioccolato bianco, olio di semi",
 "Glassa cioccolato e nocciole: cioccolato fondente, olio di semi, nocciole",
 "Glassa cioccolato ruby: cioccolato ruby, olio di semi",
 "Glassa cioccolato fondente e caramello: cioccolato fondente, cioccolato al caramello, olio di semi",
+"Glassa al pistacchio: cioccolato bianco, pasta pura di pistacchio, burro di cacao, olio di semi",
 "Glassa salata: mandorle, albume, parmigiano, olio di semi, amido"
 ];
 
